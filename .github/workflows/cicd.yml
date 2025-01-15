@@ -31,7 +31,7 @@ jobs:
           path: bin/
           name: cowsaybin
 
-deploy:
+  deploy:
   name: deploy on my self hosted
   needs: build
   runs-on: self-hosted
